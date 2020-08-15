@@ -1,0 +1,57 @@
+.main {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    z-index: 0;
+}
+
+.screenGame {
+    background-color: pink;
+    width: 90%;
+    height: 90%;
+    position: relative;
+    z-index: 1;
+}
+
+.coin {
+    background-color: yellow;
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    z-index: 3;
+}
+
+.gamezone {
+    width: 100%;
+    height: 20%;
+    position: relative;
+    background-color: brown;
+    top: 80%;
+    z-index: 2;
+}
+
+.player {
+    width: 8%;
+    height: 3%;
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 45%;
+}
